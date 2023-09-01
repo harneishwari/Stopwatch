@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .timer-container {
+    text-align: center;
+    background-color: plum;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .countdown {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons button {
+    background-color: palevioletred;
+    color: #ffffff;
+    border: 2;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .buttons button:hover {
+    background-color: #0056b3;
+  }
